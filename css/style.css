@@ -1,0 +1,254 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+body {
+    background-color: lightgrey;
+}
+.center-image {
+    margin: auto;
+}
+.header-img {
+    text-align: center;
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+    display: none
+}
+.header-inner {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header-inner img {
+    width: 175px;
+    height: 125px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline;
+    margin: 0 auto;
+}
+
+.top h1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.top h2{
+    font-size: 20px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    margin-top:0
+}
+
+.top ul {
+    padding: 0;
+}
+
+.top ul li{
+    display: inline;
+    text-align: center;
+    padding: 5px
+}
+
+.top ul li a{
+    color: white;
+    font-size: 30px
+}
+
+.menu {
+    display: block;
+    background-color: white;
+    margin-top: 500px;
+}
+
+.menu ul{
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 0;
+}
+.menu li{
+    display: inline;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+
+.menu ul li a{
+    color: black
+}
+
+.aboutme{
+    background-color: black;
+    width: 100%
+}
+
+.aboutme h1{
+    text-align: center;
+    border: solid 4px;
+    border-color: white;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.aboutme p{
+    color: white
+}
+
+.projects {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.projects h1{
+    text-align: center;
+    border: solid 4px;
+    border-color: black;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.projects h2{
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.python{
+    background-color: black;
+    width:100%
+}
+
+.python h1{
+    text-align: center;
+    border: solid 4px;
+    border-color:white;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.python p{
+    color: white
+}
+
+.ninesixty{
+    background-color: black;
+}
+
+.ninesixty h1{
+    text-align: center;
+    border: solid 4px;
+    border-color: white;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.ninesixty p{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.atm{
+    background-color: black;
+}
+
+.atm h1{
+    text-align: center;
+    border: solid 4px;
+    border-color: white;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.atm p{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.last-img .img-responsive{
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    width: 100%
+}
+
+.contact h1, li{
+    color: white;
+    font-size: 20px
+}
+
+.contact h1{
+    text-align: center;
+    border: solid 4px;
+    border-color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px
+}
+
+.links li{
+    font-size: 60px;
+    display: inline;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+
+.links ul li a{
+    color: white
+}
+
+@media (min-width:1024px){
+
+    p {
+        font-size: 30px
+    }
+
+    .menu ul li a{
+        font-size: 30px;
+        color: black
+    }
+
+    .header-inner h1{
+        font-size: 80px
+    }
+
+    .header-inner img {
+        width: 275px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        display: inline;
+        margin: 0 auto;
+    }
+
+    .header-inner h2{
+        font-size: 50px
+    }
+
+    .header-inner ul li a{
+        font-size: 50px;
+        colodr: white
+    }
+
+    .contact img{
+        max-height: 400px
+    }
+
+    .contact h1{
+        font-size: 75px
+    }
+
+    .contact li{
+        font-size: 50px
+    }
+
+    .contact ul li a{
+        font-size: 50px;
+        color: white
+    }
+
+}

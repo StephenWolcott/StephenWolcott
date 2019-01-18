@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stephen Wolcott</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--top-->
+    <div class="header-img">
+        <img class= "img-responsive" src="images/topbg.jpg">
+        <div class="top">
+            <div class="container">
+                <div class="row">
+                    <div class="header-inner">
+                        <div class="col-sm-offset-1 col-sm-10">
+                            <h1>STEPHEN WOLCOTT</h1>
+                            <img class="img-responsive" src="images/me.jpg">
+                            <h2>Developer, Programmer, Creative</h2>
+                            <ul>
+                                <li><a href="https://www.linkedin.com/in/stephen-wolcott-019540157/"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="https://github.com/StephenWolcott/"><i class="fab fa-github-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--menu-->
+    <div class="container">
+        <div class="row">
+            <div class="menu col-sm-12">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+            
+    <!--About me-->
+    <div id="about" class="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>ABOUT ME</h1>
+                        <p>I became a developer in 2018 when I enrolled in the Mississippi Coding cademy. Since then I have learned Python, HTML, CSS, Javascript, Jquery, and the command line. I am excited to be a part of our growing digital frontier!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Projects-->
+    <div id="projects" class="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Projects</h1>
+                    <h2>Here's what I've done so far</h2>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <img class="img-responsive center-image" src="images/python.jpg">
+            </div>
+            <div class="python">    
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <h1>Python Pizza Menu</h1> 
+                        <p>I created a pizza menu in Python. This project, while simple, taught me the fundamentals of Python programming, and how to create an interactive user interface.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <img class="img-responsive center-image" src="images/960.jpg">
+            </div>
+            <div class="ninesixty">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <h1>960 Grid</h1>
+                        <p>This was a mock website using the 960 grid. This was a great way to gain 'spacial awarness' while creating a website and an excellent tool for learning how to create layouts.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <img class="img-responsive center-image" src="images/atm.jpg">
+            </div>
+            <div class="atm">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <h1>ATM project</h1>
+                        <p>This was a a project to build a fully functional ATM. It was challenging, but taught me an invaluable amount about javascript programming and the value of writing clean psuedocode</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact container">
+        <div class="last-img">
+            <img class= "img-responsive" src="images/contact.jpg">
+        </div>
+    
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>CONTACT ME</h1>
+                <ul>
+                    <li><i class="fas fa-phone"></i> 601-209-9584</li>
+                    <li><i class="fas fa-envelope"></i> s.wolcott92@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="links col-sm-12">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/stephen-wolcott-019540157/"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/StephenWolcott/"><i class="fab fa-github-square"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $(".header-img").fadeIn(3000);
+
+            $(".menu").css('margin-top', '0')
+                
+        });
+    </script>
+
+</body>
+</html>
